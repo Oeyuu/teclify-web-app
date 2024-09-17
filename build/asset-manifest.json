@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c49c2d52.css",
+    "main.js": "/static/js/main.6422a7d8.js",
+    "static/js/453.3ff7b0b8.chunk.js": "/static/js/453.3ff7b0b8.chunk.js",
+    "static/media/home-blurred.png": "/static/media/home-blurred.b9c9ec41c442c52834ba.png",
+    "static/media/teclify-logo.png": "/static/media/teclify-logo.cf6831893be8359f6e2c.png",
+    "static/media/it-personal.png": "/static/media/it-personal.de50d72a91d47db570fb.png",
+    "static/media/time-icon.png": "/static/media/time-icon.3450c184970eb4a3e57d.png",
+    "static/media/puzzle.png": "/static/media/puzzle.1850c89ebbf1a2c1f255.png",
+    "index.html": "/index.html",
+    "main.c49c2d52.css.map": "/static/css/main.c49c2d52.css.map",
+    "main.6422a7d8.js.map": "/static/js/main.6422a7d8.js.map",
+    "453.3ff7b0b8.chunk.js.map": "/static/js/453.3ff7b0b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c49c2d52.css",
+    "static/js/main.6422a7d8.js"
+  ]
+}

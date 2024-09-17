@@ -1,0 +1,6 @@
+/* General App styling */
+.App {
+  text-align: center;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  background-color: #F0FAFC; /* Set the background color to your desired light blue */
+}

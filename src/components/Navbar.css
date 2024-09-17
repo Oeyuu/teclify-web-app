@@ -1,0 +1,101 @@
+/* General Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px; /* Erhöhe das Padding für mehr Platz */
+  background-color: #E5F6FB; /* Sanfte Hintergrundfarbe */
+  height: 100px; /* Erhöhe die Höhe der Navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: leichter Schatten für Tiefe */
+}
+
+/* Logo styling */
+.logo img {
+  height: 80px; /* Größeres Logo */
+  width: auto;
+}
+
+/* Navbar links styling */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Abstand zwischen den Links */
+}
+
+/* Links styling */
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333; /* Dunkleres Grau für den Text */
+  font-size: 1.2rem; /* Größere Schriftgröße für die Links */
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #357A98; /* Gleiche Farbe wie der Button */
+}
+
+/* Dropdown icon */
+.dropdown-icon {
+  font-size: 0.8rem; /* Kleinere Pfeilgröße */
+  margin-left: 5px;
+}
+
+/* Dropdown styling (optional if you want dropdown) */
+.dropdown {
+  display: none; /* Verstecke das Dropdown standardmäßig */
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar-links li:hover .dropdown {
+  display: block; /* Zeige das Dropdown bei Hover */
+}
+
+/* Kontakt Button styling */
+.contact-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #B0B0B0; /* Gray border */
+    background-color: transparent;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+.contact-button:hover {
+  background-color: #2a5f79; /* Dunklerer Farbton bei Hover */
+  color: #f6f6f6;
+}
+
+/* Standard Styling für NavLink */
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Styling für den aktiven Zustand */
+.navbar-links .active {
+  color: #357A98; /* Andere Farbe für den aktiven Link */
+  font-size: 1.3rem; /* Größere Schriftgröße */
+  font-weight: 900; /* Fett */
+  border-bottom: 2px solid #357A98; /* Unterstrich für den aktiven Link */
+}
+
+/* Hover Effekt (bleibt gleich) */
+.navbar-links a:hover {
+  color: #357A98;
+}
