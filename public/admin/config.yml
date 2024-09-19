@@ -8,12 +8,13 @@ public_folder: "/img"
 collections:
   - name: "home"
     label: "Home Page"
-    folder: "src/components/home"
+    folder: "content/home"
     create: false
+    extension: "md"
     fields:
-      - { label: "Title Section", name: "Title", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}] }
-      - { label: "Challenges Section", name: "ChallengesSection", widget: "object", fields: [{label: "Challenges", name: "challenges", widget: "text"}] }
-      - { label: "Solution Section", name: "SolutionSection", widget: "object", fields: [{label: "Solution", name: "solution", widget: "text"}] }
-      - { label: "Services", name: "Services", widget: "object", fields: [{label: "Service Description", name: "services", widget: "text"}] }
-      - { label: "Expertise", name: "Expertise", widget: "object", fields: [{label: "Expertise Details", name: "expertise", widget: "text"}] }
-      - { label: "Portfolio", name: "Portfolio", widget: "object", fields: [{label: "Portfolio Projects", name: "portfolio", widget: "text"}] }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Challenges Section", name: "challenges", widget: "text" }
+      - { label: "Solution Section", name: "solution", widget: "text" }
+      - { label: "Services", name: "services", widget: "text" }
+      - { label: "Expertise", name: "expertise", widget: "text" }
+      - { label: "Portfolio", name: "portfolio", widget: "text" }
